@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .logo-container {
+        display: flex;
+        max-width: 101px;
+    }
+    .nav-links-container {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+        li {
+            margin: 0 25px;
+            align-self: center;
+        }
+        .sign-up {
+            color: white;
+            padding: 12px 30px 12px 30px;
+            border-radius: 30px;
+            background: linear-gradient(90deg, #3460AD 0%, #34ADAD 100%);
+        }
+    }
+}

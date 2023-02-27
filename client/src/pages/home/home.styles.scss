@@ -1,0 +1,9 @@
+.home {
+    padding: 15px;
+    .image-container {
+        position: absolute;
+        top: 0vh;
+        right: -15vw;
+        z-index: -1;
+    }
+}
