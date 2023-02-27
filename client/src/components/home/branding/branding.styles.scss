@@ -1,0 +1,13 @@
+.branding-section {
+    padding-top: 20vh;
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .column {
+            h1 {
+                font-size: 3.5em;
+            }
+        }
+    }
+}

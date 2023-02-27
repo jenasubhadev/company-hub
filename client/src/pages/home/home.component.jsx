@@ -1,15 +1,18 @@
+
+import HomePageNav from '../../components/home/navBar/navBar.component';
+import Branding from '../../components/home/branding/branding.component';
+// import { ReactComponent as BlueCLoud } from '../../assets/blueCloud.svg';
+
 import './home.styles.scss';
-import HomePageNav from '../../components/HomePageNav/HomePageNav.component';
-import { ReactComponent as BlueCLoud } from '../../assets/blueCloud.svg';
 
 const Home = () => {
     return (
         <div className='home'>
             <HomePageNav />
-            <h1>Home Page</h1>
-            <div className='image-container'>
+            <Branding />
+            {/* <div className='image-container'>
                 <BlueCLoud />
-            </div>
+            </div> */}
         </div>
     );
 };
