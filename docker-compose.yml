@@ -1,7 +1,11 @@
 version: '3'
 services:
   node-web-app:
-    build: ./client
-    image: mazataz/node-web-app
+    build: 
+      context: ./client
+      dockerfile: dockerfile
+    image: mazataz/node-web-app:3.0
+    container_name: node-web-app
     ports:
       - "3000:3000"
+    
