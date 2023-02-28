@@ -1,0 +1,10 @@
+.services-section {
+    margin-top: 10vh;
+    .call-to-action {
+        display: grid;
+        grid-template-columns: 53ch;
+        h1 {
+            font-size: 3.5em;
+        }
+    }
+}
